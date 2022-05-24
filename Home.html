@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <link rel="stylesheet" href="Home.css">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
   <body>
-    <ul class="Navbar">
-      <li class="NavbarContent">
-        <a class="NavbarText" href="Abilities/Abilities.html">ABILITIES</a></li>
-      <li class="NavbarContent">
-        <a class="NavbarText" href="Characters/Characters.html">CHARACTERS</a></li>
-      <li class="NavbarContent">
-        <a class="NavbarText" href="Geography/Geography.html">GEOGRAPHY</a></li>
-      <li class="NavbarContent">
-        <a class="NavbarText" href="Weapons/Weapons.html">WEAPONS</a></li>
-      <li class="NavbarContent">
-        <a class="NavbarText" href="Other/Other.html">OTHER</a></li>
-    </ul>
+    <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Abilities/Abilities.html">ABILITIES</a>
+  <a href="Characters/Characters.html">CHARACTERS</a>
+  <a href="Geography/Gepgraphy.html">GEOGRAPHY</a>
+  <a href="Weapons/Weapons.html">WEAPONS</a>
+  <a href="Other/Other.html">OTHER</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776;</button>
+</div>
+
+<script src="Home.js"></script>
   </body>
 </html>
