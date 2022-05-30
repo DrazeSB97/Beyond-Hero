@@ -77,16 +77,18 @@ h1{
 }
 
 /* Style buttons */
-.btn {
-  background-color: DodgerBlue; /* Blue background */
+.Homebutton {
+  background-color: white; /* background colour of padding */
   border: none; /* Remove borders */
-  color: white; /* White text */
-  padding: 12px 16px; /* Some padding */
-  font-size: 16px; /* Set a font size */
+  color: black; /* White text */
+  padding: 12px; /* The physical size of the button. 12px currently controls the height property */
+  width: 100%;
+  font-size: 25px; /* HOME text and its icon */
   cursor: pointer; /* Mouse pointer on hover */
 }
 
 /* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
+.Homebutton:hover {
+  background-color: gold;
+  color: black;
 }

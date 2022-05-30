@@ -1,0 +1,12 @@
+HTML and CSS for the Google Search Bar
+
+<!-- <form class="googlesearch" onkeyup="googleSearchDesktop()" action="https://www.google.co.uk/search" method="get" target="_blank">
+  <input id="gsSearchBarDesktop" type="text" placeholder="Type Here"></input>
+  <input id="gsButtonDesktop" type="submit" value="Search" disabled></input>
+</form> -->
+
+.googlesearch {
+  height: 0;
+  width: 0;
+  display: inline;
+}
